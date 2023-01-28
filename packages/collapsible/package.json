@@ -1,0 +1,9 @@
+{
+  "name": "@teovilla/shadcn-ui-collapsible",
+  "version": "0.0.1",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@teovilla/shadcn-ui-lib": "0.0.1",
+    "@radix-ui/react-collapsible": "^1.0.1"
+  }
+}

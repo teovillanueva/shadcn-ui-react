@@ -1,0 +1,11 @@
+{
+  "name": "@teovilla/shadcn-ui-checkbox",
+  "version": "0.0.1",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@teovilla/shadcn-ui-lib": "0.0.1",
+    "react": "^18.2.0",
+    "@radix-ui/react-checkbox": "^1.0.1",
+    "lucide-react": "0.105.0-alpha.4"
+  }
+}

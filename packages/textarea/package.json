@@ -1,0 +1,9 @@
+{
+  "name": "@teovilla/shadcn-ui-textarea",
+  "version": "0.0.1",
+  "main": "src/index.tsx",
+  "dependencies": {
+    "@teovilla/shadcn-ui-lib": "0.0.1",
+    "react": "^18.2.0"
+  }
+}
