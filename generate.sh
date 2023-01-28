@@ -93,7 +93,11 @@ for file in ./download/components/ui/*; do
 
   cp "$file" "$packageIndexPath"
 
-  sed -i '' 's/\@\/lib\/utils/\@teovilla\/shadcn-ui-lib/' "$packageIndexPath"
+  if [[ "$OSTYPE" == "darwin"* ]]; then
+    sed -i '' 's/\@\/lib\/utils/\@teovilla\/shadcn-ui-lib/' "$packageIndexPath"
+  else
+    sed -i 's/\@\/lib\/utils/\@teovilla\/shadcn-ui-lib/' "$packageIndexPath"
+  fi
 
   imports=$(awk -F '\t' '/import/' "$packageIndexPath")
 
