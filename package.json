@@ -2,6 +2,9 @@
   "name": "@teovilla/shadcn-ui-react-root",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "publish": "turbo run publish"
+  },
   "workspaces": {
     "packages": [
       "packages/*",
@@ -41,6 +44,7 @@
     "tailwindcss-animate": "^1.0.5"
   },
   "devDependencies": {
-    "@types/react": "^18.0.27"
+    "@types/react": "^18.0.27",
+    "turbo": "^1.7.0"
   }
 }

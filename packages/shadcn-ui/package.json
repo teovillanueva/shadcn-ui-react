@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "main": "src/index.ts",
   "dependencies": {
-    "@teovilla/shadcn-ui-lib": "0.1.0",
+    "@teovilla/shadcn-ui-react-lib": "0.1.0",
     "@teovilla/shadcn-ui-react-accordion": "0.1.0",
     "@teovilla/shadcn-ui-react-alert-dialog": "0.1.0",
     "@teovilla/shadcn-ui-react-aspect-ratio": "0.1.0",

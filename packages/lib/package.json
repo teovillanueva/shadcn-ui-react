@@ -1,5 +1,12 @@
 {
   "name": "@teovilla/shadcn-ui-react-lib",
   "version": "0.1.0",
-  "main": "src/index.ts"
+  "main": "src/index.ts",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^1.8.0"
+  }
 }

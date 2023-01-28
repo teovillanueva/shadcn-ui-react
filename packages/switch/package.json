@@ -2,8 +2,11 @@
   "name": "@teovilla/shadcn-ui-react-switch",
   "version": "0.1.0",
   "main": "src/index.tsx",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "dependencies": {
-    "@teovilla/shadcn-ui-lib": "0.1.0",
+    "@teovilla/shadcn-ui-react-lib": "0.1.0",
     "react": "^18.2.0",
     "@radix-ui/react-switch": "^1.0.1"
   }
