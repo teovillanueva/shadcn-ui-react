@@ -3,8 +3,18 @@
   "version": "0.1.0",
   "main": "src/index.ts",
   "scripts": {
-    "publish": "npm publish --access public"
+    "publish-package": "npm publish --access public"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "https://github.com/teovillanueva/shadcn-ui-react",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com> (https://github.com/teovillanueva)",
+  "bugs": {
+    "url": "https://github.com/teovillanueva/shadcn-ui-react/issues"
+  },
+  "homepage": "https://github.com/teovillanueva/shadcn-ui-react#readme",
   "dependencies": {
     "clsx": "^1.2.1",
     "tailwind-merge": "^1.8.0"
