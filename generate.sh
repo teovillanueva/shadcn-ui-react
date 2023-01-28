@@ -41,8 +41,18 @@ libPackageJsonContent="{
   \"version\": $version,
   \"main\": \"src/index.ts\",
   \"scripts\": {
-    \"publish\": \"npm publish --access public\"
-  }
+    \"publish-package\": \"npm publish --access public\"
+  },
+  \"publishConfig\": {
+    \"registry\": \"https://registry.npmjs.org/\",
+    \"access\": \"public\"
+  },
+  \"repository\": \"https://github.com/teovillanueva/shadcn-ui-react\",
+  \"author\": \"Teodoro Villanueva <teodoro2102@gmail.com> (https://github.com/teovillanueva)\",
+  \"bugs\": {
+    \"url\": \"https://github.com/teovillanueva/shadcn-ui-react/issues\"
+  },
+  \"homepage\": \"https://github.com/teovillanueva/shadcn-ui-react#readme\"
 }"
 
 mkdir -p $libDir
@@ -95,11 +105,21 @@ for file in ./download/components/ui/*; do
   \"version\": $version,
   \"main\": \"src/index.tsx\",
   \"scripts\": {
-    \"publish\": \"npm publish --access public\"
+    \"publish-package\": \"npm publish --access public\"
   },
   \"dependencies\": {
     \"@teovilla/shadcn-ui-react-lib\": $version
-  }
+  },
+  \"publishConfig\": {
+    \"registry\": \"https://registry.npmjs.org/\",
+    \"access\": \"public\"
+  },
+  \"repository\": \"https://github.com/teovillanueva/shadcn-ui-react\",
+  \"author\": \"Teodoro Villanueva <teodoro2102@gmail.com> (https://github.com/teovillanueva)\",
+  \"bugs\": {
+    \"url\": \"https://github.com/teovillanueva/shadcn-ui-react/issues\"
+  },
+  \"homepage\": \"https://github.com/teovillanueva/shadcn-ui-react#readme\"
 }"
 
   mainPackagePackageJsonContent=$(echo "$mainPackagePackageJsonContent" | jq ".dependencies[\"$packageName\"] = $version")

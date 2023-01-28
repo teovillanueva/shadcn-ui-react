@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "publish": "turbo run publish"
+    "publish-packages": "yarn turbo run publish-package"
   },
   "workspaces": {
     "packages": [

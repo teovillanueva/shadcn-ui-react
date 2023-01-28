@@ -22,6 +22,11 @@ jobs:
       - name: Generate components
         run: chmod +x ./generate.sh && ./generate.sh
 
+      - name: Publish packages
+        run: yarn publish-packages
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Push changes
         with:
