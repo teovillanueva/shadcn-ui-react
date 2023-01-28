@@ -16,10 +16,10 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Install dependencies
-        run: yarn
+        run: npm install
 
       - name: Install Turbo
-        run: yarn global add turbo
+        run: npm i -g turbo
 
       - name: "Automated Version Bump"
         uses: "phips28/gh-action-bump-version@master"
@@ -35,7 +35,7 @@ jobs:
       - name: Publish packages
         run: |
           echo '//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}' > .npmrc
-          yarn publish-packages
+          npm publish-packages
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 

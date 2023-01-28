@@ -1,3 +1,4 @@
 download
 node_modules
 .turbo
+yarn-error.log
