@@ -1,6 +1,6 @@
 {
   "name": "@teovilla/shadcn-ui-react-root",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "publish-packages": "yarn turbo run publish-package"
