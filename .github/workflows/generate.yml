@@ -10,6 +10,10 @@ jobs:
 
       - name: Setup node
         uses: actions/setup-node@v3
+        with:
+          always-auth: "true"
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Install dependencies
         run: yarn
@@ -30,8 +34,6 @@ jobs:
 
       - name: Publish packages
         run: yarn publish-packages
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Push changes
