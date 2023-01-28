@@ -2,12 +2,19 @@ on: [workflow_dispatch]
 jobs:
   dispatch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Setup node
         uses: actions/setup-node@v3
+
+      - name: "Automated Version Bump"
+        uses: "phips28/gh-action-bump-version@master"
+        with:
+          version-type: "minor"
 
       - name: Generate components
         run: chmod +x ./generate.sh && ./generate.sh
