@@ -27,7 +27,20 @@ mainPackagePackageJsonContent="{
   \"main\": \"src/index.ts\",
   \"dependencies\": {
     \"@teovilla/shadcn-ui-react-lib\": $version
-  }
+  },
+  \"scripts\": {
+    \"publish-package\": \"npm publish --access public\"
+  },
+  \"publishConfig\": {
+    \"registry\": \"https://registry.npmjs.org/\",
+    \"access\": \"public\"
+  },
+  \"repository\": \"https://github.com/teovillanueva/shadcn-ui-react\",
+  \"author\": \"Teodoro Villanueva <teodoro2102@gmail.com> (https://github.com/teovillanueva)\",
+  \"bugs\": {
+    \"url\": \"https://github.com/teovillanueva/shadcn-ui-react/issues\"
+  },
+  \"homepage\": \"https://github.com/teovillanueva/shadcn-ui-react#readme\"
 }"
 
 # --- LIB Package ---
