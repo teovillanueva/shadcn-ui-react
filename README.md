@@ -133,6 +133,6 @@ Here is a list of all the packages if you want to add them all or pick the ones 
 
 Then it's pretty straight forward! You just import the components directly from `@teovilla/shadcn-ui-react` if you installed all of them or if you installed specific packages just import them from their respective package and keep your bundle size as low as possible!
 
-## Contributing
+## How does this keep up to date
 
-See the [contributing guide](CONTRIBUTING.md) to learn how to contribute to the repository and the development workflow.
+I've created a [fork](https://github.com/teovillanueva/shadcn-ui-next-fork) of the components and I keep the fork updated with [this workflow](https://github.com/wei/pull). Then whenever there is a change in the fork a workflow is triggered in this repo and the components are generated and published automatically!
