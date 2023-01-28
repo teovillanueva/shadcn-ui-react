@@ -11,6 +11,9 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v3
 
+      - name: Install Turbo
+        run: yarn global add turbo
+
       - name: "Automated Version Bump"
         uses: "phips28/gh-action-bump-version@master"
         with:
