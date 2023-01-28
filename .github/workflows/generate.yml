@@ -33,7 +33,11 @@ jobs:
         run: chmod +x ./generate.sh && ./generate.sh
 
       - name: Publish packages
-        run: yarn publish-packages
+        run: |
+          echo '//registry.npmjs.org/:_authToken=${NODE_AUTH_TOKEN}' > .npmrc
+          yarn publish-packages
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         name: Push changes
