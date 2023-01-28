@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-hover-card",
+  "name": "@teovilla/shadcn-ui-react-hover-card",
   "version": "0.0.1",
   "main": "src/index.tsx",
   "dependencies": {

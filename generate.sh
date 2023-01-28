@@ -21,7 +21,7 @@ touch $mainPackageIndexPath
 touch $mainPackagePackageJsonPath
 
 mainPackagePackageJsonContent="{
-  \"name\": \"@teovilla/shadcn-ui\",
+  \"name\": \"@teovilla/shadcn-ui-react\",
   \"version\": $version,
   \"main\": \"src/index.ts\",
   \"dependencies\": {
@@ -44,7 +44,7 @@ mkdir -p $libSrcDir
 touch $libPackageJsonPath
 
 echo "{
-  \"name\": \"@teovilla/shadcn-ui-lib\",
+  \"name\": \"@teovilla/shadcn-ui-react-lib\",
   \"version\": $version,
   \"main\": \"src/index.ts\"
 }" >$libPackageJsonPath
@@ -73,7 +73,7 @@ for file in ./download/components/ui/*; do
 
   packageIndexPath="$packageSrcDir/index.tsx"
   packageJsonPath="$packageDir/package.json"
-  packageName=@teovilla/shadcn-ui-$component
+  packageName=@teovilla/shadcn-ui-react-$component
 
   mkdir -p "packages/$component"
   touch "$packageJsonPath"

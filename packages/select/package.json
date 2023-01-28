@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-select",
+  "name": "@teovilla/shadcn-ui-react-select",
   "version": "0.0.1",
   "main": "src/index.tsx",
   "dependencies": {

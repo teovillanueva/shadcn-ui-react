@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-input",
+  "name": "@teovilla/shadcn-ui-react-input",
   "version": "0.0.1",
   "main": "src/index.tsx",
   "dependencies": {

@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-button",
+  "name": "@teovilla/shadcn-ui-react-button",
   "version": "0.0.1",
   "main": "src/index.tsx",
   "dependencies": {

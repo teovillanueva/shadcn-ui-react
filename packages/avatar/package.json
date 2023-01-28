@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-avatar",
+  "name": "@teovilla/shadcn-ui-react-avatar",
   "version": "0.0.1",
   "main": "src/index.tsx",
   "dependencies": {

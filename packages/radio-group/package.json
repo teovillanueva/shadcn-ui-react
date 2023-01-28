@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-radio-group",
+  "name": "@teovilla/shadcn-ui-react-radio-group",
   "version": "0.0.1",
   "main": "src/index.tsx",
   "dependencies": {

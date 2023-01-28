@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-menubar",
+  "name": "@teovilla/shadcn-ui-react-menubar",
   "version": "0.0.1",
   "main": "src/index.tsx",
   "dependencies": {

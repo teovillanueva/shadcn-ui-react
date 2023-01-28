@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-dialog",
+  "name": "@teovilla/shadcn-ui-react-dialog",
   "version": "0.0.1",
   "main": "src/index.tsx",
   "dependencies": {

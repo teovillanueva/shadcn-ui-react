@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-scroll-area",
+  "name": "@teovilla/shadcn-ui-react-scroll-area",
   "version": "0.0.1",
   "main": "src/index.tsx",
   "dependencies": {
