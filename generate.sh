@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# rm -rf download
-# git clone https://github.com/shadcn/next-template download
+rm -rf download
+git clone https://github.com/shadcn/next-template download
 
 version=$(cat package.json | jq ".version")
 

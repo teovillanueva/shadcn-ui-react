@@ -1,0 +1,6 @@
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate components
+        run: chmod +x ./generate.sh && ./generate.sh
