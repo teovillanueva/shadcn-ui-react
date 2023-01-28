@@ -15,6 +15,9 @@ jobs:
         uses: "phips28/gh-action-bump-version@master"
         with:
           version-type: "minor"
+          skip-commit: "true"
+          skip-tag: "true"
+          skip-push: "true"
 
       - name: Generate components
         run: chmod +x ./generate.sh && ./generate.sh
