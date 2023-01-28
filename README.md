@@ -100,34 +100,34 @@ module.exports = nextConfig;
 You'll have to add more packages to the `transpilePackages` property. You can add only the ones you are using but remember always to add the package `@teovilla/shadcn-ui-react-lib`.
 Here is a list of all the packages if you want to add them all or pick the ones you want!
 
-- "@teovilla/shadcn-ui-react"
-- "@teovilla/shadcn-ui-react-accordion"
-- "@teovilla/shadcn-ui-react-lib"
-- "@teovilla/shadcn-ui-react-accordion"
-- "@teovilla/shadcn-ui-react-alert-dialog"
-- "@teovilla/shadcn-ui-react-aspect-ratio"
-- "@teovilla/shadcn-ui-react-avatar"
-- "@teovilla/shadcn-ui-react-button"
-- "@teovilla/shadcn-ui-react-checkbox"
-- "@teovilla/shadcn-ui-react-collapsible"
-- "@teovilla/shadcn-ui-react-context-menu"
-- "@teovilla/shadcn-ui-react-dialog"
-- "@teovilla/shadcn-ui-react-dropdown-menu"
-- "@teovilla/shadcn-ui-react-hover-card"
-- "@teovilla/shadcn-ui-react-input"
-- "@teovilla/shadcn-ui-react-label"
-- "@teovilla/shadcn-ui-react-menubar"
-- "@teovilla/shadcn-ui-react-popover"
-- "@teovilla/shadcn-ui-react-progress"
-- "@teovilla/shadcn-ui-react-radio-group"
-- "@teovilla/shadcn-ui-react-scroll-area"
-- "@teovilla/shadcn-ui-react-select"
-- "@teovilla/shadcn-ui-react-separator"
-- "@teovilla/shadcn-ui-react-slider"
-- "@teovilla/shadcn-ui-react-switch"
-- "@teovilla/shadcn-ui-react-tabs"
-- "@teovilla/shadcn-ui-react-textarea"
-- "@teovilla/shadcn-ui-react-tooltip"
+- `"@teovilla/shadcn-ui-react"`
+- `"@teovilla/shadcn-ui-react-accordion"`
+- `"@teovilla/shadcn-ui-react-lib"`
+- `"@teovilla/shadcn-ui-react-accordion"`
+- `"@teovilla/shadcn-ui-react-alert-dialog"`
+- `"@teovilla/shadcn-ui-react-aspect-ratio"`
+- `"@teovilla/shadcn-ui-react-avatar"`
+- `"@teovilla/shadcn-ui-react-button"`
+- `"@teovilla/shadcn-ui-react-checkbox"`
+- `"@teovilla/shadcn-ui-react-collapsible"`
+- `"@teovilla/shadcn-ui-react-context-menu"`
+- `"@teovilla/shadcn-ui-react-dialog"`
+- `"@teovilla/shadcn-ui-react-dropdown-menu"`
+- `"@teovilla/shadcn-ui-react-hover-card"`
+- `"@teovilla/shadcn-ui-react-input"`
+- `"@teovilla/shadcn-ui-react-label"`
+- `"@teovilla/shadcn-ui-react-menubar"`
+- `"@teovilla/shadcn-ui-react-popover"`
+- `"@teovilla/shadcn-ui-react-progress"`
+- `"@teovilla/shadcn-ui-react-radio-group"`
+- `"@teovilla/shadcn-ui-react-scroll-area"`
+- `"@teovilla/shadcn-ui-react-select"`
+- `"@teovilla/shadcn-ui-react-separator"`
+- `"@teovilla/shadcn-ui-react-slider"`
+- `"@teovilla/shadcn-ui-react-switch"`
+- `"@teovilla/shadcn-ui-react-tabs"`
+- `"@teovilla/shadcn-ui-react-textarea"`
+- `"@teovilla/shadcn-ui-react-tooltip"`
 
 ## Using the components
 
