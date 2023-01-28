@@ -1,12 +1,12 @@
 {
   "name": "@teovilla/shadcn-ui-react-aspect-ratio",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "src/index.tsx",
   "scripts": {
     "publish-package": "npm publish --access public"
   },
   "dependencies": {
-    "@teovilla/shadcn-ui-react-lib": "0.3.0",
+    "@teovilla/shadcn-ui-react-lib": "0.4.0",
     "@radix-ui/react-aspect-ratio": "^1.0.1"
   },
   "publishConfig": {
