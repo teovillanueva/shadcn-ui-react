@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  transpilePackages: ["@teovilla/shadcn-ui"],
+  transpilePackages: ["@teovilla/shadcn-ui-react"],
   experimental: {
     appDir: true,
     fontLoaders: [
