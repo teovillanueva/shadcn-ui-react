@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 rm -rf download
 git clone https://github.com/shadcn/next-template download
