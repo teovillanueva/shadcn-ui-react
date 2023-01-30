@@ -1,5 +1,5 @@
 {
-  "name": "@teovilla/shadcn-ui-react-progress",
+  "name": "@teovilla/shadcn-ui-react-navigation-menu",
   "version": "0.5.0",
   "main": "src/index.tsx",
   "scripts": {
@@ -8,7 +8,9 @@
   "dependencies": {
     "@teovilla/shadcn-ui-react-lib": "0.5.0",
     "react": "^18.2.0",
-    "@radix-ui/react-progress": "^1.0.1"
+    "@radix-ui/react-navigation-menu": "^1.1.1",
+    "class-variance-authority": "^0.4.0",
+    "lucide-react": "0.105.0-alpha.4"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

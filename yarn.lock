@@ -750,247 +750,247 @@
   dependencies:
     "tslib" "^2.4.0"
 
-"@teovilla/shadcn-ui-react-accordion@0.3.0", "@teovilla/shadcn-ui-react-accordion@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/accordion":
+"@teovilla/shadcn-ui-react-accordion@0.4.0", "@teovilla/shadcn-ui-react-accordion@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/accordion":
   "resolved" "file:packages/accordion"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-accordion" "^1.1.0"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "lucide-react" "0.105.0-alpha.4"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-alert-dialog@0.3.0", "@teovilla/shadcn-ui-react-alert-dialog@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/alert-dialog":
+"@teovilla/shadcn-ui-react-alert-dialog@0.4.0", "@teovilla/shadcn-ui-react-alert-dialog@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/alert-dialog":
   "resolved" "file:packages/alert-dialog"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-alert-dialog" "^1.0.2"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-aspect-ratio@0.3.0", "@teovilla/shadcn-ui-react-aspect-ratio@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/aspect-ratio":
+"@teovilla/shadcn-ui-react-aspect-ratio@0.4.0", "@teovilla/shadcn-ui-react-aspect-ratio@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/aspect-ratio":
   "resolved" "file:packages/aspect-ratio"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-aspect-ratio" "^1.0.1"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
 
-"@teovilla/shadcn-ui-react-avatar@0.3.0", "@teovilla/shadcn-ui-react-avatar@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/avatar":
+"@teovilla/shadcn-ui-react-avatar@0.4.0", "@teovilla/shadcn-ui-react-avatar@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/avatar":
   "resolved" "file:packages/avatar"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-avatar" "^1.0.1"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-button@0.3.0", "@teovilla/shadcn-ui-react-button@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/button":
+"@teovilla/shadcn-ui-react-button@0.4.0", "@teovilla/shadcn-ui-react-button@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/button":
   "resolved" "file:packages/button"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "class-variance-authority" "^0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-checkbox@0.3.0", "@teovilla/shadcn-ui-react-checkbox@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/checkbox":
+"@teovilla/shadcn-ui-react-checkbox@0.4.0", "@teovilla/shadcn-ui-react-checkbox@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/checkbox":
   "resolved" "file:packages/checkbox"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-checkbox" "^1.0.1"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "lucide-react" "0.105.0-alpha.4"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-collapsible@0.3.0", "@teovilla/shadcn-ui-react-collapsible@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/collapsible":
+"@teovilla/shadcn-ui-react-collapsible@0.4.0", "@teovilla/shadcn-ui-react-collapsible@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/collapsible":
   "resolved" "file:packages/collapsible"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-collapsible" "^1.0.1"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
 
-"@teovilla/shadcn-ui-react-context-menu@0.3.0", "@teovilla/shadcn-ui-react-context-menu@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/context-menu":
+"@teovilla/shadcn-ui-react-context-menu@0.4.0", "@teovilla/shadcn-ui-react-context-menu@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/context-menu":
   "resolved" "file:packages/context-menu"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-context-menu" "^2.1.1"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "lucide-react" "0.105.0-alpha.4"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-dialog@0.3.0", "@teovilla/shadcn-ui-react-dialog@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/dialog":
+"@teovilla/shadcn-ui-react-dialog@0.4.0", "@teovilla/shadcn-ui-react-dialog@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/dialog":
   "resolved" "file:packages/dialog"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-dialog" "^1.0.2"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "lucide-react" "0.105.0-alpha.4"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-dropdown-menu@0.3.0", "@teovilla/shadcn-ui-react-dropdown-menu@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/dropdown-menu":
+"@teovilla/shadcn-ui-react-dropdown-menu@0.4.0", "@teovilla/shadcn-ui-react-dropdown-menu@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/dropdown-menu":
   "resolved" "file:packages/dropdown-menu"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-dropdown-menu" "^2.0.1"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "lucide-react" "0.105.0-alpha.4"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-hover-card@0.3.0", "@teovilla/shadcn-ui-react-hover-card@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/hover-card":
+"@teovilla/shadcn-ui-react-hover-card@0.4.0", "@teovilla/shadcn-ui-react-hover-card@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/hover-card":
   "resolved" "file:packages/hover-card"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-hover-card" "^1.0.3"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-input@0.3.0", "@teovilla/shadcn-ui-react-input@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/input":
+"@teovilla/shadcn-ui-react-input@0.4.0", "@teovilla/shadcn-ui-react-input@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/input":
   "resolved" "file:packages/input"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-label@0.3.0", "@teovilla/shadcn-ui-react-label@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/label":
+"@teovilla/shadcn-ui-react-label@0.4.0", "@teovilla/shadcn-ui-react-label@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/label":
   "resolved" "file:packages/label"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-label" "^2.0.0"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-lib@0.3.0", "@teovilla/shadcn-ui-react-lib@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/lib":
+"@teovilla/shadcn-ui-react-lib@0.4.0", "@teovilla/shadcn-ui-react-lib@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/lib":
   "resolved" "file:packages/lib"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "clsx" "^1.2.1"
     "tailwind-merge" "^1.8.0"
 
-"@teovilla/shadcn-ui-react-menubar@0.3.0", "@teovilla/shadcn-ui-react-menubar@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/menubar":
+"@teovilla/shadcn-ui-react-menubar@0.4.0", "@teovilla/shadcn-ui-react-menubar@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/menubar":
   "resolved" "file:packages/menubar"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-menubar" "^1.0.0"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "lucide-react" "0.105.0-alpha.4"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-popover@0.3.0", "@teovilla/shadcn-ui-react-popover@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/popover":
+"@teovilla/shadcn-ui-react-popover@0.4.0", "@teovilla/shadcn-ui-react-popover@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/popover":
   "resolved" "file:packages/popover"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-popover" "^1.0.2"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-progress@0.3.0", "@teovilla/shadcn-ui-react-progress@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/progress":
+"@teovilla/shadcn-ui-react-progress@0.4.0", "@teovilla/shadcn-ui-react-progress@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/progress":
   "resolved" "file:packages/progress"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-progress" "^1.0.1"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-radio-group@0.3.0", "@teovilla/shadcn-ui-react-radio-group@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/radio-group":
+"@teovilla/shadcn-ui-react-radio-group@0.4.0", "@teovilla/shadcn-ui-react-radio-group@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/radio-group":
   "resolved" "file:packages/radio-group"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-radio-group" "^1.1.0"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "lucide-react" "0.105.0-alpha.4"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-scroll-area@0.3.0", "@teovilla/shadcn-ui-react-scroll-area@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/scroll-area":
+"@teovilla/shadcn-ui-react-scroll-area@0.4.0", "@teovilla/shadcn-ui-react-scroll-area@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/scroll-area":
   "resolved" "file:packages/scroll-area"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-scroll-area" "^1.0.2"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-select@0.3.0", "@teovilla/shadcn-ui-react-select@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/select":
+"@teovilla/shadcn-ui-react-select@0.4.0", "@teovilla/shadcn-ui-react-select@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/select":
   "resolved" "file:packages/select"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-select" "^1.2.0"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "lucide-react" "0.105.0-alpha.4"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-separator@0.3.0", "@teovilla/shadcn-ui-react-separator@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/separator":
+"@teovilla/shadcn-ui-react-separator@0.4.0", "@teovilla/shadcn-ui-react-separator@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/separator":
   "resolved" "file:packages/separator"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-separator" "^1.0.1"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-slider@0.3.0", "@teovilla/shadcn-ui-react-slider@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/slider":
+"@teovilla/shadcn-ui-react-slider@0.4.0", "@teovilla/shadcn-ui-react-slider@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/slider":
   "resolved" "file:packages/slider"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-slider" "^1.1.0"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-switch@0.3.0", "@teovilla/shadcn-ui-react-switch@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/switch":
+"@teovilla/shadcn-ui-react-switch@0.4.0", "@teovilla/shadcn-ui-react-switch@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/switch":
   "resolved" "file:packages/switch"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-switch" "^1.0.1"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-tabs@0.3.0", "@teovilla/shadcn-ui-react-tabs@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/tabs":
+"@teovilla/shadcn-ui-react-tabs@0.4.0", "@teovilla/shadcn-ui-react-tabs@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/tabs":
   "resolved" "file:packages/tabs"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-tabs" "^1.0.2"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-textarea@0.3.0", "@teovilla/shadcn-ui-react-textarea@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/textarea":
+"@teovilla/shadcn-ui-react-textarea@0.4.0", "@teovilla/shadcn-ui-react-textarea@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/textarea":
   "resolved" "file:packages/textarea"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
-"@teovilla/shadcn-ui-react-tooltip@0.3.0", "@teovilla/shadcn-ui-react-tooltip@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/tooltip":
+"@teovilla/shadcn-ui-react-tooltip@0.4.0", "@teovilla/shadcn-ui-react-tooltip@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/tooltip":
   "resolved" "file:packages/tooltip"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
     "@radix-ui/react-tooltip" "^1.0.3"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
     "react" "^18.2.0"
 
 "@teovilla/shadcn-ui-react@*", "@teovilla/shadcn-ui-react@file:/home/runner/work/shadcn-ui-react/shadcn-ui-react/packages/shadcn-ui":
   "resolved" "file:packages/shadcn-ui"
-  "version" "0.3.0"
+  "version" "0.4.0"
   dependencies:
-    "@teovilla/shadcn-ui-react-accordion" "0.3.0"
-    "@teovilla/shadcn-ui-react-alert-dialog" "0.3.0"
-    "@teovilla/shadcn-ui-react-aspect-ratio" "0.3.0"
-    "@teovilla/shadcn-ui-react-avatar" "0.3.0"
-    "@teovilla/shadcn-ui-react-button" "0.3.0"
-    "@teovilla/shadcn-ui-react-checkbox" "0.3.0"
-    "@teovilla/shadcn-ui-react-collapsible" "0.3.0"
-    "@teovilla/shadcn-ui-react-context-menu" "0.3.0"
-    "@teovilla/shadcn-ui-react-dialog" "0.3.0"
-    "@teovilla/shadcn-ui-react-dropdown-menu" "0.3.0"
-    "@teovilla/shadcn-ui-react-hover-card" "0.3.0"
-    "@teovilla/shadcn-ui-react-input" "0.3.0"
-    "@teovilla/shadcn-ui-react-label" "0.3.0"
-    "@teovilla/shadcn-ui-react-lib" "0.3.0"
-    "@teovilla/shadcn-ui-react-menubar" "0.3.0"
-    "@teovilla/shadcn-ui-react-popover" "0.3.0"
-    "@teovilla/shadcn-ui-react-progress" "0.3.0"
-    "@teovilla/shadcn-ui-react-radio-group" "0.3.0"
-    "@teovilla/shadcn-ui-react-scroll-area" "0.3.0"
-    "@teovilla/shadcn-ui-react-select" "0.3.0"
-    "@teovilla/shadcn-ui-react-separator" "0.3.0"
-    "@teovilla/shadcn-ui-react-slider" "0.3.0"
-    "@teovilla/shadcn-ui-react-switch" "0.3.0"
-    "@teovilla/shadcn-ui-react-tabs" "0.3.0"
-    "@teovilla/shadcn-ui-react-textarea" "0.3.0"
-    "@teovilla/shadcn-ui-react-tooltip" "0.3.0"
+    "@teovilla/shadcn-ui-react-accordion" "0.4.0"
+    "@teovilla/shadcn-ui-react-alert-dialog" "0.4.0"
+    "@teovilla/shadcn-ui-react-aspect-ratio" "0.4.0"
+    "@teovilla/shadcn-ui-react-avatar" "0.4.0"
+    "@teovilla/shadcn-ui-react-button" "0.4.0"
+    "@teovilla/shadcn-ui-react-checkbox" "0.4.0"
+    "@teovilla/shadcn-ui-react-collapsible" "0.4.0"
+    "@teovilla/shadcn-ui-react-context-menu" "0.4.0"
+    "@teovilla/shadcn-ui-react-dialog" "0.4.0"
+    "@teovilla/shadcn-ui-react-dropdown-menu" "0.4.0"
+    "@teovilla/shadcn-ui-react-hover-card" "0.4.0"
+    "@teovilla/shadcn-ui-react-input" "0.4.0"
+    "@teovilla/shadcn-ui-react-label" "0.4.0"
+    "@teovilla/shadcn-ui-react-lib" "0.4.0"
+    "@teovilla/shadcn-ui-react-menubar" "0.4.0"
+    "@teovilla/shadcn-ui-react-popover" "0.4.0"
+    "@teovilla/shadcn-ui-react-progress" "0.4.0"
+    "@teovilla/shadcn-ui-react-radio-group" "0.4.0"
+    "@teovilla/shadcn-ui-react-scroll-area" "0.4.0"
+    "@teovilla/shadcn-ui-react-select" "0.4.0"
+    "@teovilla/shadcn-ui-react-separator" "0.4.0"
+    "@teovilla/shadcn-ui-react-slider" "0.4.0"
+    "@teovilla/shadcn-ui-react-switch" "0.4.0"
+    "@teovilla/shadcn-ui-react-tabs" "0.4.0"
+    "@teovilla/shadcn-ui-react-textarea" "0.4.0"
+    "@teovilla/shadcn-ui-react-tooltip" "0.4.0"
 
 "@types/json5@^0.0.29":
   "integrity" "sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ=="

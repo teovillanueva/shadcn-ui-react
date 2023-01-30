@@ -1,6 +1,6 @@
 {
   "name": "@teovilla/shadcn-ui-react-lib",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "main": "src/index.ts",
   "scripts": {
     "publish-package": "npm publish --access public"
