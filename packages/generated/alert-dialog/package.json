@@ -1,0 +1,33 @@
+{
+  "name": "@teovilla/shadcn-ui-react-alert-dialog",
+  "version": "0.0.1",
+  "dependencies": {
+    "react": "^18.2.0",
+    "lucide-react": "^0.162.0",
+    "class-variance-authority": "^0.5.2",
+    "@teovilla/shadcn-ui-react-utils": "workspace:*",
+    "@radix-ui/react-alert-dialog": "1.0.4",
+    "@teovilla/shadcn-ui-react-button": "workspace:*"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "devDependencies": {
+    "@types/react": "18.0.37"
+  },
+  "scripts": {
+    "build": "tsup",
+    "publish-package": "npm publish --access public"
+  },
+  "repository": "https://github.com/teovillanueva/shadcn-ui-react",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com> (https://github.com/teovillanueva)",
+  "bugs": {
+    "url": "https://github.com/teovillanueva/shadcn-ui-react/issues"
+  },
+  "homepage": "https://github.com/teovillanueva/shadcn-ui-react#readme"
+}

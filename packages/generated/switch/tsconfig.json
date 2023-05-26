@@ -1,0 +1,13 @@
+
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "lib": ["dom", "ES2015", "ES2021.String"],
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

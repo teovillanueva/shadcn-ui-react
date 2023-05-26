@@ -1,0 +1,14 @@
+{
+  "name": "@teovilla/shadcn-ui-react-utils",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "source": "src/index.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "dependencies": {
+    "clsx": "^1.2.1",
+    "tailwind-merge": "^1.12.0"
+  }
+}
