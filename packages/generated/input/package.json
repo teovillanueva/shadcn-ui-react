@@ -1,8 +1,10 @@
 {
   "name": "@teovilla/shadcn-ui-react-input",
   "version": "0.0.5",
+  "peerDependencies": {
+    "react": "*"
+  },
   "dependencies": {
-    "react": "^18.2.0",
     "lucide-react": "^0.162.0",
     "class-variance-authority": "^0.5.2",
     "@teovilla/shadcn-ui-react-utils": "workspace:*"

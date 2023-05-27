@@ -7,7 +7,6 @@ import { getPackageDir } from "./get-package-dir";
 import { getDependencyLatestVersion } from "./get-dependency-latest-version";
 
 const DEFAULT_DEPENDENCIES = {
-  react: "^18.2.0",
   "lucide-react": "^0.162.0",
   "class-variance-authority": "^0.5.2",
   "@teovilla/shadcn-ui-react-utils": "workspace:*",
@@ -75,6 +74,9 @@ export async function generateComponentPackageJson(
   return {
     name: packageName,
     version,
+    peerDependencies: {
+      react: "*",
+    },
     dependencies: {
       ...dependencies,
       ...(dependencyOverrides[

@@ -28,6 +28,10 @@ export async function generateRootPackage(
 
   const packageJson: PackageJson = {
     name: "@teovilla/shadcn-ui-react",
+    main: "dist/index.js",
+    module: "dist/index.mjs",
+    types: "dist/index.d.ts",
+    source: "src/index.ts",
     scripts: {
       build: "tsup",
     },

@@ -5,7 +5,8 @@
   "scripts": {
     "publish-packages": "turbo run build && changeset version && changeset publish",
     "generate": "pnpm --filter @teovilla/shadcn-ui-generate-script run run",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "template:dev": "pnpm --filter next-shadcn-ui run dev"
   },
   "workspaces": {
     "packages": [
