@@ -8,6 +8,9 @@ importers:
         specifier: ^6.7.0
         version: 6.7.0
     devDependencies:
+      changesets:
+        specifier: ^1.0.2
+        version: 1.0.2
       turbo:
         specifier: ^1.7.0
         version: 1.7.0
@@ -256,6 +259,9 @@ importers:
 
   packages/generated/command:
     dependencies:
+      '@radix-ui/react-dialog':
+        specifier: 1.0.4
+        version: 1.0.4(@types/react@18.0.37)(react-dom@18.2.0)(react@18.2.0)
       '@teovilla/shadcn-ui-react-dialog':
         specifier: workspace:*
         version: link:../dialog
@@ -517,6 +523,120 @@ importers:
       '@types/react':
         specifier: 18.0.37
         version: 18.0.37
+
+  packages/generated/react:
+    dependencies:
+      '@teovilla/shadcn-ui-react-accordion':
+        specifier: 0.0.5
+        version: link:../accordion
+      '@teovilla/shadcn-ui-react-alert':
+        specifier: 0.0.5
+        version: link:../alert
+      '@teovilla/shadcn-ui-react-alert-dialog':
+        specifier: 0.0.5
+        version: link:../alert-dialog
+      '@teovilla/shadcn-ui-react-aspect-ratio':
+        specifier: 0.0.5
+        version: link:../aspect-ratio
+      '@teovilla/shadcn-ui-react-avatar':
+        specifier: 0.0.5
+        version: link:../avatar
+      '@teovilla/shadcn-ui-react-badge':
+        specifier: 0.0.5
+        version: link:../badge
+      '@teovilla/shadcn-ui-react-button':
+        specifier: 0.0.5
+        version: link:../button
+      '@teovilla/shadcn-ui-react-calendar':
+        specifier: 0.0.5
+        version: link:../calendar
+      '@teovilla/shadcn-ui-react-card':
+        specifier: 0.0.5
+        version: link:../card
+      '@teovilla/shadcn-ui-react-checkbox':
+        specifier: 0.0.5
+        version: link:../checkbox
+      '@teovilla/shadcn-ui-react-collapsible':
+        specifier: 0.0.5
+        version: link:../collapsible
+      '@teovilla/shadcn-ui-react-command':
+        specifier: 0.0.5
+        version: link:../command
+      '@teovilla/shadcn-ui-react-context-menu':
+        specifier: 0.0.5
+        version: link:../context-menu
+      '@teovilla/shadcn-ui-react-dialog':
+        specifier: 0.0.5
+        version: link:../dialog
+      '@teovilla/shadcn-ui-react-dropdown-menu':
+        specifier: 0.0.5
+        version: link:../dropdown-menu
+      '@teovilla/shadcn-ui-react-hover-card':
+        specifier: 0.0.5
+        version: link:../hover-card
+      '@teovilla/shadcn-ui-react-input':
+        specifier: 0.0.5
+        version: link:../input
+      '@teovilla/shadcn-ui-react-label':
+        specifier: 0.0.5
+        version: link:../label
+      '@teovilla/shadcn-ui-react-menubar':
+        specifier: 0.0.5
+        version: link:../menubar
+      '@teovilla/shadcn-ui-react-navigation-menu':
+        specifier: 0.0.5
+        version: link:../navigation-menu
+      '@teovilla/shadcn-ui-react-popover':
+        specifier: 0.0.5
+        version: link:../popover
+      '@teovilla/shadcn-ui-react-progress':
+        specifier: 0.0.5
+        version: link:../progress
+      '@teovilla/shadcn-ui-react-radio-group':
+        specifier: 0.0.5
+        version: link:../radio-group
+      '@teovilla/shadcn-ui-react-scroll-area':
+        specifier: 0.0.5
+        version: link:../scroll-area
+      '@teovilla/shadcn-ui-react-select':
+        specifier: 0.0.5
+        version: link:../select
+      '@teovilla/shadcn-ui-react-separator':
+        specifier: 0.0.5
+        version: link:../separator
+      '@teovilla/shadcn-ui-react-sheet':
+        specifier: 0.0.5
+        version: link:../sheet
+      '@teovilla/shadcn-ui-react-skeleton':
+        specifier: 0.0.5
+        version: link:../skeleton
+      '@teovilla/shadcn-ui-react-slider':
+        specifier: 0.0.5
+        version: link:../slider
+      '@teovilla/shadcn-ui-react-switch':
+        specifier: 0.0.5
+        version: link:../switch
+      '@teovilla/shadcn-ui-react-table':
+        specifier: 0.0.5
+        version: link:../table
+      '@teovilla/shadcn-ui-react-tabs':
+        specifier: 0.0.5
+        version: link:../tabs
+      '@teovilla/shadcn-ui-react-textarea':
+        specifier: 0.0.5
+        version: link:../textarea
+      '@teovilla/shadcn-ui-react-toast':
+        specifier: 0.0.5
+        version: link:../toast
+      '@teovilla/shadcn-ui-react-toggle':
+        specifier: 0.0.5
+        version: link:../toggle
+      '@teovilla/shadcn-ui-react-tooltip':
+        specifier: 0.0.5
+        version: link:../tooltip
+      '@teovilla/shadcn-ui-react-utils':
+        specifier: workspace:*
+        version: link:../../utils
 
   packages/generated/scroll-area:
     dependencies:
@@ -804,7 +924,7 @@ importers:
         specifier: ^1.12.0
         version: 1.12.0
 
-  scripts/build:
+  scripts/generate:
     dependencies:
       '@pnpm/find-workspace-dir':
         specifier: ^6.0.0
@@ -2613,6 +2733,10 @@ packages:
     resolution: {integrity: sha512-b6Ilus+c3RrdDk+JhLKUAQfzzgLEPy6wcXqS7f/xe1EETvsDP6GORG7SFuOs6cID5YkqchW/LXZbX5bc8j7ZcQ==}
     engines: {node: '>=8'}
     dev: false
+
+  /changesets@1.0.2:
+    resolution: {integrity: sha512-lnXvvqJEcK0z/6RtwKNLbejazl+Hxd1bocMcNgfLHWb4rGxuqkO/LdeGNzwIx3jHj+fNWZ6AGgK5AqNBwva4Xg==}
+    dev: true
 
   /chokidar@3.5.3:
     resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}

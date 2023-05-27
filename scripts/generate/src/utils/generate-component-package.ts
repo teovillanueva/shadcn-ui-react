@@ -1,12 +1,12 @@
 import path from "path";
 import fs from "fs-extra";
 import { Component } from "./get-components";
-import { getComponentPackageDir } from "./get-component-package-dir";
+import { getPackageDir } from "./get-package-dir";
 import { generateComponentPackageJson } from "./generate-component-package-json";
 import { generateComponentPackageSrc } from "./generate-component-package-src";
 
 export async function generateComponentPackage(component: Component) {
-  const packageDir = await getComponentPackageDir(component);
+  const packageDir = await getPackageDir(component.component);
 
   await fs.ensureDir(packageDir);
 
@@ -53,4 +53,6 @@ export default defineConfig({
   );
 
   await generateComponentPackageSrc(component);
+
+  return { packageJson: componentPackageJson };
 }

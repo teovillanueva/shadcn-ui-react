@@ -1,20 +1,15 @@
 import path from "path";
 import fs from "fs-extra";
 import { Component } from "./get-components";
-import { getComponentPackageDir } from "./get-component-package-dir";
+import { getPackageDir } from "./get-package-dir";
 
 export async function generateComponentPackageSrc(
   component: Component
 ): Promise<void> {
-  const packageSrcDir = path.join(
-    await getComponentPackageDir(component),
-    "src"
-  );
+  const packageDir = await getPackageDir(component.component);
+  const packageSrcDir = path.join(packageDir, "src");
 
-  const packageIndexPath = path.join(
-    await getComponentPackageDir(component),
-    "src/index.ts"
-  );
+  const packageIndexPath = path.join(packageDir, "src/index.ts");
 
   await fs.ensureDir(packageSrcDir);
 

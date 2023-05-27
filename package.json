@@ -3,7 +3,9 @@
   "version": "0.4.0",
   "private": true,
   "scripts": {
-    "publish-packages": "pnpm turbo run publish-package"
+    "publish-packages": "turbo run build && changeset version && changeset publish",
+    "generate": "pnpm --filter @teovilla/shadcn-ui-generate-script run run",
+    "build": "turbo run build"
   },
   "workspaces": {
     "packages": [
@@ -17,6 +19,7 @@
     "tsup": "^6.7.0"
   },
   "devDependencies": {
+    "changesets": "^1.0.2",
     "turbo": "^1.7.0"
   }
 }

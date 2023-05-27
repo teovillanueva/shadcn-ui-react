@@ -3,7 +3,7 @@ import fs from "fs-extra";
 import { PackageJson } from "type-fest";
 import { Component } from "./get-components";
 import { PACKAGE_NAME_PREFIX, getPackageName } from "./get-package-name";
-import { getComponentPackageDir } from "./get-component-package-dir";
+import { getPackageDir } from "./get-package-dir";
 import { getDependencyLatestVersion } from "./get-dependency-latest-version";
 
 const DEFAULT_DEPENDENCIES = {
@@ -13,6 +13,13 @@ const DEFAULT_DEPENDENCIES = {
   "@teovilla/shadcn-ui-react-utils": "workspace:*",
 };
 
+// TODO:  Remove once https://github.com/shadcn/ui/pull/462 gets merged
+const dependencyOverrides = {
+  "@teovilla/shadcn-ui-react-command": {
+    "@radix-ui/react-dialog": "1.0.4",
+  },
+};
+
 export async function generateComponentPackageJson(
   component: Component
 ): Promise<PackageJson> {
@@ -20,7 +27,7 @@ export async function generateComponentPackageJson(
 
   try {
     const packageJsonPath = path.join(
-      await getComponentPackageDir(component),
+      await getPackageDir(component.component),
       "package.json"
     );
 
@@ -63,10 +70,17 @@ export async function generateComponentPackageJson(
     });
   });
 
+  const packageName = getPackageName(component.component);
+
   return {
-    name: getPackageName(component.component),
+    name: packageName,
     version,
-    dependencies,
+    dependencies: {
+      ...dependencies,
+      ...(dependencyOverrides[
+        packageName as keyof typeof dependencyOverrides
+      ] || {}),
+    },
     main: "dist/index.js",
     module: "dist/index.mjs",
     types: "dist/index.d.ts",
@@ -80,7 +94,6 @@ export async function generateComponentPackageJson(
     },
     scripts: {
       build: "tsup",
-      "publish-package": "npm publish --access public",
     },
     repository: "https://github.com/teovillanueva/shadcn-ui-react",
     author:

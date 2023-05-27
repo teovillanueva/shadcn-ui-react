@@ -1,6 +1,6 @@
 {
   "name": "@teovilla/shadcn-ui-react-dialog",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "dependencies": {
     "react": "^18.2.0",
     "lucide-react": "^0.162.0",
@@ -20,8 +20,7 @@
     "@types/react": "18.0.37"
   },
   "scripts": {
-    "build": "tsup",
-    "publish-package": "npm publish --access public"
+    "build": "tsup"
   },
   "repository": "https://github.com/teovillanueva/shadcn-ui-react",
   "author": "Teodoro Villanueva <teodoro2102@gmail.com> (https://github.com/teovillanueva)",

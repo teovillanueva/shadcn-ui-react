@@ -1,7 +1,6 @@
 {
   "$schema": "https://turbo.build/schema.json",
   "pipeline": {
-    "publish-package": {},
     "build": {
       "dependsOn": ["^build"]
     }
