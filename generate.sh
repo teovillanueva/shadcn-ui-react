@@ -3,6 +3,10 @@
 rm -rf download
 git clone https://github.com/shadcn/next-template download
 
+pushd ./download
+npx shadcn-ui add --overwrite --yes accordion alert alert-dialog aspect-ratio avatar badge button calendar card checkbox collapsible command context-menu dialog dropdown-menu form hover-card input label menubar navigation-menu popover progress radio-group scroll-area select separator sheet skeleton slider switch table tabs textarea toast toggle tooltip
+popd
+
 version=$(cat package.json | jq ".version")
 templatePackageJson=$(cat download/package.json)
 
