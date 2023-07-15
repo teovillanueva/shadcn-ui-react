@@ -8,7 +8,8 @@
   "dependencies": {
     "@teovilla/shadcn-ui-react-lib": "0.5.0",
     "react": "^18.2.0",
-    "@radix-ui/react-alert-dialog": "^1.0.2"
+    "@radix-ui/react-alert-dialog": "^1.0.4",
+    "@/components/ui/button": null
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/",

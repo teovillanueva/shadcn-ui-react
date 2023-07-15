@@ -16,7 +16,8 @@
   },
   "homepage": "https://github.com/teovillanueva/shadcn-ui-react#readme",
   "dependencies": {
+    "next/font/google": null,
     "clsx": "^1.2.1",
-    "tailwind-merge": "^1.8.0"
+    "tailwind-merge": "^1.13.2"
   }
 }

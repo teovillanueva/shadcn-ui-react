@@ -1,0 +1,25 @@
+{
+  "name": "@teovilla/shadcn-ui-react-calendar",
+  "version": "0.5.0",
+  "main": "src/index.tsx",
+  "scripts": {
+    "publish-package": "npm publish --access public"
+  },
+  "dependencies": {
+    "@teovilla/shadcn-ui-react-lib": "0.5.0",
+    "react": "^18.2.0",
+    "lucide-react": "0.105.0-alpha.4",
+    "react-day-picker": "^8.8.0",
+    "@/components/ui/button": null
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "repository": "https://github.com/teovillanueva/shadcn-ui-react",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com> (https://github.com/teovillanueva)",
+  "bugs": {
+    "url": "https://github.com/teovillanueva/shadcn-ui-react/issues"
+  },
+  "homepage": "https://github.com/teovillanueva/shadcn-ui-react#readme"
+}
