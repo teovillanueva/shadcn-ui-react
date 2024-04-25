@@ -1,15 +1,16 @@
 {
   "name": "@teovilla/shadcn-ui-react-carousel",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com>",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/carousel.css --minify",
-    "publish-package": "npm version patch && pnpm publish"
+    "publish-package": "npm version patch --no-git-checks && pnpm publish --no-git-checks"
   },
   "exports": {
     "./carousel.css": "./styles/carousel.css",
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
     "embla-carousel-react": "8.0.2",
     "@radix-ui/react-slot": "1.0.2",

@@ -1,15 +1,16 @@
 {
   "name": "@teovilla/shadcn-ui-react-sonner",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com>",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/sonner.css --minify",
-    "publish-package": "npm version patch && pnpm publish"
+    "publish-package": "npm version patch --no-git-checks && pnpm publish --no-git-checks"
   },
   "exports": {
     "./sonner.css": "./styles/sonner.css",
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
     "sonner": "1.4.41",
     "next-themes": "0.3.0",

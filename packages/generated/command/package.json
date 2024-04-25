@@ -1,15 +1,16 @@
 {
   "name": "@teovilla/shadcn-ui-react-command",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com>",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/command.css --minify",
-    "publish-package": "npm version patch && pnpm publish"
+    "publish-package": "npm version patch --no-git-checks && pnpm publish --no-git-checks"
   },
   "exports": {
     "./command.css": "./styles/command.css",
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
     "cmdk": "1.0.0",
     "@radix-ui/react-dialog": "1.0.5",

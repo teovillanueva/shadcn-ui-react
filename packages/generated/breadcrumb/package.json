@@ -1,15 +1,16 @@
 {
   "name": "@teovilla/shadcn-ui-react-breadcrumb",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com>",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/breadcrumb.css --minify",
-    "publish-package": "npm version patch && pnpm publish"
+    "publish-package": "npm version patch --no-git-checks && pnpm publish --no-git-checks"
   },
   "exports": {
     "./breadcrumb.css": "./styles/breadcrumb.css",
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
     "@radix-ui/react-slot": "1.0.2",
     "@radix-ui/react-icons": "1.3.0",

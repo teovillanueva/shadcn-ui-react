@@ -1,15 +1,16 @@
 {
   "name": "@teovilla/shadcn-ui-react-calendar",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com>",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/calendar.css --minify",
-    "publish-package": "npm version patch && pnpm publish"
+    "publish-package": "npm version patch --no-git-checks && pnpm publish --no-git-checks"
   },
   "exports": {
     "./calendar.css": "./styles/calendar.css",
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
     "react-day-picker": "8.10.1",
     "date-fns": "3.6.0",

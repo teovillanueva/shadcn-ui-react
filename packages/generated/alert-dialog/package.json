@@ -1,15 +1,16 @@
 {
   "name": "@teovilla/shadcn-ui-react-alert-dialog",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com>",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/alert-dialog.css --minify",
-    "publish-package": "npm version patch && pnpm publish"
+    "publish-package": "npm version patch --no-git-checks && pnpm publish --no-git-checks"
   },
   "exports": {
     "./alert-dialog.css": "./styles/alert-dialog.css",
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
     "@radix-ui/react-alert-dialog": "1.0.5",
     "@radix-ui/react-slot": "1.0.2",

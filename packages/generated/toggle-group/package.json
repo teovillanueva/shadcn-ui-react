@@ -1,15 +1,16 @@
 {
   "name": "@teovilla/shadcn-ui-react-toggle-group",
+  "author": "Teodoro Villanueva <teodoro2102@gmail.com>",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/toggle-group.css --minify",
-    "publish-package": "npm version patch && pnpm publish"
+    "publish-package": "npm version patch --no-git-checks && pnpm publish --no-git-checks"
   },
   "exports": {
     "./toggle-group.css": "./styles/toggle-group.css",
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "dependencies": {
     "@radix-ui/react-toggle-group": "1.0.4",
     "@radix-ui/react-toggle": "1.0.3",
