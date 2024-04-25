@@ -53,6 +53,8 @@ jobs:
 
       - name: Publish
         run: pnpm publish-package --access public
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Commit & Push changes
         uses: actions-js/push@master
