@@ -106,7 +106,8 @@ export async function getTemplatePackageJson(
     author: "Teodoro Villanueva <teodoro2102@gmail.com>",
     scripts: {
       build: `tsc && tailwindcss -o styles/${name}.css --minify`,
-      "publish-package": "npm version patch --no-git-checks && pnpm publish",
+      "publish-package":
+        "npm version patch --no-git-checks && pnpm publish --no-git-checks",
     },
     exports: {
       [`./${name}.css`]: `./styles/${name}.css`,
