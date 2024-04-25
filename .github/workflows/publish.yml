@@ -19,7 +19,11 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
+          always-auth: true
           node-version: 20
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - uses: pnpm/action-setup@v3
         name: Install pnpm
@@ -58,6 +62,7 @@ jobs:
         run: pnpm publish-package --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Commit & Push changes
         uses: actions-js/push@master
