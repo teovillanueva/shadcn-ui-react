@@ -175,6 +175,7 @@ export async function getTemplatePackageFiles(
             "dist"
           ]
         }
+        
       `,
     },
     {

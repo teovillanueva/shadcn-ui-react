@@ -54,6 +54,9 @@ jobs:
       - name: Generate components
         run: pnpm --filter=@repo/generator generate
 
+      - name: Rebase
+        run: git pull --rebase
+
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
