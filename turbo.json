@@ -9,6 +9,9 @@
     "lint": {
       "dependsOn": ["^lint"]
     },
+    "publish-package": {
+      "dependsOn": ["^build", "^publish-package"]
+    },
     "dev": {
       "cache": false,
       "persistent": true

@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-sonner",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/sonner.css --minify"
+    "build": "tsc && tailwindcss -o styles/sonner.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./sonner.css": "./styles/sonner.css",

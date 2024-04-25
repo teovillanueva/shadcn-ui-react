@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-form",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/form.css --minify"
+    "build": "tsc && tailwindcss -o styles/form.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./form.css": "./styles/form.css",

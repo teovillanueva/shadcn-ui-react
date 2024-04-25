@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-tabs",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/tabs.css --minify"
+    "build": "tsc && tailwindcss -o styles/tabs.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./tabs.css": "./styles/tabs.css",

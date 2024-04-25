@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-menubar",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/menubar.css --minify"
+    "build": "tsc && tailwindcss -o styles/menubar.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./menubar.css": "./styles/menubar.css",

@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-textarea",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/textarea.css --minify"
+    "build": "tsc && tailwindcss -o styles/textarea.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./textarea.css": "./styles/textarea.css",

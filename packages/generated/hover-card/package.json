@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-hover-card",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/hover-card.css --minify"
+    "build": "tsc && tailwindcss -o styles/hover-card.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./hover-card.css": "./styles/hover-card.css",

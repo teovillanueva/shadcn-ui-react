@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-toast",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/toast.css --minify"
+    "build": "tsc && tailwindcss -o styles/toast.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./toast.css": "./styles/toast.css",

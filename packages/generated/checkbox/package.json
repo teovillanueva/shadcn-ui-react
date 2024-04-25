@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-checkbox",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/checkbox.css --minify"
+    "build": "tsc && tailwindcss -o styles/checkbox.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./checkbox.css": "./styles/checkbox.css",

@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-card",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/card.css --minify"
+    "build": "tsc && tailwindcss -o styles/card.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./card.css": "./styles/card.css",

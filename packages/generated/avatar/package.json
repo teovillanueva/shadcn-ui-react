@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-avatar",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/avatar.css --minify"
+    "build": "tsc && tailwindcss -o styles/avatar.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./avatar.css": "./styles/avatar.css",

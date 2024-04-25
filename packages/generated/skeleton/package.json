@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-skeleton",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/skeleton.css --minify"
+    "build": "tsc && tailwindcss -o styles/skeleton.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./skeleton.css": "./styles/skeleton.css",

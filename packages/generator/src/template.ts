@@ -108,6 +108,7 @@ export async function getTemplatePackageJson(
     name: getLocalRegistryPackageName(name),
     scripts: {
       build: `tsc && tailwindcss -o styles/${name}.css --minify`,
+      "publish-package": "pnpm publish",
     },
     exports: {
       [`./${name}.css`]: `./styles/${name}.css`,

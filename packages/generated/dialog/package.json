@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-dialog",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/dialog.css --minify"
+    "build": "tsc && tailwindcss -o styles/dialog.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./dialog.css": "./styles/dialog.css",

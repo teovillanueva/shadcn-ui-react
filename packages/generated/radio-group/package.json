@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-radio-group",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/radio-group.css --minify"
+    "build": "tsc && tailwindcss -o styles/radio-group.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./radio-group.css": "./styles/radio-group.css",

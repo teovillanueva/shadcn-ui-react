@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-toggle-group",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/toggle-group.css --minify"
+    "build": "tsc && tailwindcss -o styles/toggle-group.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./toggle-group.css": "./styles/toggle-group.css",

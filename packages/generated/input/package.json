@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-input",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/input.css --minify"
+    "build": "tsc && tailwindcss -o styles/input.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./input.css": "./styles/input.css",

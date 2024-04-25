@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-badge",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/badge.css --minify"
+    "build": "tsc && tailwindcss -o styles/badge.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./badge.css": "./styles/badge.css",

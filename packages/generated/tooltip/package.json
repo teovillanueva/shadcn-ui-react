@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-tooltip",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/tooltip.css --minify"
+    "build": "tsc && tailwindcss -o styles/tooltip.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./tooltip.css": "./styles/tooltip.css",

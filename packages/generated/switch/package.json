@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-switch",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/switch.css --minify"
+    "build": "tsc && tailwindcss -o styles/switch.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./switch.css": "./styles/switch.css",

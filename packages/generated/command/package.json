@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-command",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/command.css --minify"
+    "build": "tsc && tailwindcss -o styles/command.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./command.css": "./styles/command.css",

@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-navigation-menu",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/navigation-menu.css --minify"
+    "build": "tsc && tailwindcss -o styles/navigation-menu.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./navigation-menu.css": "./styles/navigation-menu.css",

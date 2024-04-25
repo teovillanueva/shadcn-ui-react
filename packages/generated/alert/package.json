@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-alert",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/alert.css --minify"
+    "build": "tsc && tailwindcss -o styles/alert.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./alert.css": "./styles/alert.css",

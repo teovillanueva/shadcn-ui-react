@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-scroll-area",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/scroll-area.css --minify"
+    "build": "tsc && tailwindcss -o styles/scroll-area.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./scroll-area.css": "./styles/scroll-area.css",

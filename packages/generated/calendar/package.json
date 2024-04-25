@@ -1,7 +1,8 @@
 {
   "name": "@teovilla/shadcn-ui-react-calendar",
   "scripts": {
-    "build": "tsc && tailwindcss -o styles/calendar.css --minify"
+    "build": "tsc && tailwindcss -o styles/calendar.css --minify",
+    "publish-package": "pnpm publish"
   },
   "exports": {
     "./calendar.css": "./styles/calendar.css",
