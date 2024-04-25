@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-slider",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/slider.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./slider.css": "./styles/slider.css",

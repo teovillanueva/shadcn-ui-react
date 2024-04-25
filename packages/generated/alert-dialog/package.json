@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-alert-dialog",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/alert-dialog.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./alert-dialog.css": "./styles/alert-dialog.css",

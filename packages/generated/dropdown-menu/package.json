@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-dropdown-menu",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/dropdown-menu.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./dropdown-menu.css": "./styles/dropdown-menu.css",

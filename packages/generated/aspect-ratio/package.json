@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-aspect-ratio",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/aspect-ratio.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./aspect-ratio.css": "./styles/aspect-ratio.css",

@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-accordion",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/accordion.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./accordion.css": "./styles/accordion.css",

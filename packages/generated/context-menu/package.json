@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-context-menu",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/context-menu.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./context-menu.css": "./styles/context-menu.css",

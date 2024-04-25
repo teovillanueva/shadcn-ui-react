@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-drawer",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/drawer.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./drawer.css": "./styles/drawer.css",

@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-sheet",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/sheet.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./sheet.css": "./styles/sheet.css",

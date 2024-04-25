@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-button",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/button.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./button.css": "./styles/button.css",

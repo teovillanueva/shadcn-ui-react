@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-label",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/label.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./label.css": "./styles/label.css",

@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-select",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/select.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./select.css": "./styles/select.css",

@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-breadcrumb",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/breadcrumb.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./breadcrumb.css": "./styles/breadcrumb.css",

@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-carousel",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/carousel.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./carousel.css": "./styles/carousel.css",

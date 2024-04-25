@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-popover",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/popover.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./popover.css": "./styles/popover.css",

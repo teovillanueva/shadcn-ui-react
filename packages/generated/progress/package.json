@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-progress",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/progress.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./progress.css": "./styles/progress.css",

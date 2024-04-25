@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-input-otp",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/input-otp.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./input-otp.css": "./styles/input-otp.css",

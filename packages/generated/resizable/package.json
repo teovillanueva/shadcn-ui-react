@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-resizable",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/resizable.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./resizable.css": "./styles/resizable.css",

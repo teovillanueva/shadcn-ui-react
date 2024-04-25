@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-scroll-area",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/scroll-area.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./scroll-area.css": "./styles/scroll-area.css",

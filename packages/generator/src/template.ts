@@ -27,7 +27,6 @@ const FIXED_DEV_DEPENDENCIES = [
   ["typescript", "^5.3.3"],
 ];
 
-let localPackageVersion: string | null = null;
 let packageVersionCache: Record<string, string> = fs.existsSync(
   path.join(__dirname, "../packageVersionCache.json")
 )
@@ -38,16 +37,14 @@ let packageVersionCache: Record<string, string> = fs.existsSync(
     )
   : {};
 
-export function getLocalPackageVersion() {
-  const version =
-    localPackageVersion ??
-    JSON.parse(
-      fs
-        .readFileSync(path.resolve(__dirname, "../../../package.json"))
-        .toString()
-    ).version;
-  localPackageVersion = version;
-  return version;
+export function getLocalPackageVersion(name: string) {
+  return JSON.parse(
+    fs
+      .readFileSync(
+        path.resolve(__dirname, `../../generated/${name}/package.json`)
+      )
+      .toString()
+  ).version;
 }
 
 export function getLocalRegistryPackageName(name: string) {
@@ -128,7 +125,7 @@ export async function getTemplatePackageJson(
         {} as Record<string, any>
       ),
     },
-    version: getLocalPackageVersion(),
+    version: getLocalPackageVersion(name),
     ...(await getLocalPackageDependencies({
       dependencies: [
         ...(dependencies ?? []),

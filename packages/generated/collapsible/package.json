@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-collapsible",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/collapsible.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./collapsible.css": "./styles/collapsible.css",

@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-separator",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/separator.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./separator.css": "./styles/separator.css",

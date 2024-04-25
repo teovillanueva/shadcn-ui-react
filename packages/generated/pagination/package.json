@@ -2,7 +2,7 @@
   "name": "@teovilla/shadcn-ui-react-pagination",
   "scripts": {
     "build": "tsc && tailwindcss -o styles/pagination.css --minify",
-    "publish-package": "pnpm publish"
+    "publish-package": "npm version patch && pnpm publish"
   },
   "exports": {
     "./pagination.css": "./styles/pagination.css",
