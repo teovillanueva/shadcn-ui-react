@@ -53,3 +53,8 @@ jobs:
 
       - name: Publish
         run: pnpm publish-package --access public
+
+      - name: Commit & Push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
