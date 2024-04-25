@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          fetch-depth: 2
+          fetch-depth: 0
 
       - name: Install Node.js
         uses: actions/setup-node@v4
@@ -53,9 +53,6 @@ jobs:
 
       - name: Generate components
         run: pnpm --filter=@repo/generator generate
-
-      - name: Rebase
-        run: git pull --rebase
 
       - name: Commit & Push changes
         uses: actions-js/push@master
