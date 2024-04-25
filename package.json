@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "private": true,
   "scripts": {
-    "build": "turbo build --cache-dir=.turbo",
+    "build": "turbo build  --cache-dir=.turbo",
     "dev": "turbo dev",
     "publish-package": "turbo publish-package --cache-dir=.turbo --filter=[HEAD^1] --",
     "lint": "turbo lint",
