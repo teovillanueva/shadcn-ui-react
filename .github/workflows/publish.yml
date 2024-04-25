@@ -21,6 +21,7 @@ jobs:
         with:
           always-auth: true
           node-version: 20
+          registry-url: "https://registry.npmjs.org"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
