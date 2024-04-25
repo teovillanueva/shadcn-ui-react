@@ -54,11 +54,6 @@ jobs:
       - name: Generate components
         run: pnpm --filter=@repo/generator generate
 
-      - name: Commit & Push changes
-        uses: actions-js/push@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
       - name: Publish
         run: pnpm publish-package --access public
         env:
