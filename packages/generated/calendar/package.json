@@ -10,7 +10,7 @@
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "dependencies": {
     "react-day-picker": "8.10.1",
     "date-fns": "3.6.0",
