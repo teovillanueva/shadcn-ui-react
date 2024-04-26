@@ -10,7 +10,7 @@
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.15",
+  "version": "1.0.16",
   "dependencies": {
     "cmdk": "1.0.0",
     "@radix-ui/react-dialog": "1.0.5",
