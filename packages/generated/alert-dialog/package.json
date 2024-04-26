@@ -10,7 +10,7 @@
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "dependencies": {
     "@radix-ui/react-alert-dialog": "1.0.5",
     "@radix-ui/react-slot": "1.0.2",

@@ -10,7 +10,7 @@
     "./default/*": "./dist/default/*.js",
     "./new-york/*": "./dist/new-york/*.js"
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "dependencies": {
     "sonner": "1.4.41",
     "next-themes": "0.3.0",
